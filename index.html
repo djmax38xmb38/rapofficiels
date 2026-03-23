@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>DJ MAX x MB38 – Clips</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #050510;
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 40px;
+    }
+    h1 {
+      text-align: center;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .track {
+      max-width: 480px;
+      width: 100%;
+      background: radial-gradient(circle at top, #222244 0, #050510 55%);
+      border-radius: 18px;
+      padding: 16px 16px 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .cover-wrap {
+      position: relative;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+    .cover-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .title {
+      margin: 14px 4px 4px;
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    .artists {
+      margin: 0 4px 10px;
+      font-size: 0.9rem;
+      color: #bbbbdd;
+    }
+    audio {
+      width: 100%;
+      margin-top: 4px;
+    }
+    .badge {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.7);
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #ffd86b;
+    }
+  </style>
+</head>
+<body>
+  <h1>DJ MAX x MB38</h1>
+
+  <!-- LA CITÉ -->
+  <section class="track">
+    <div class="cover-wrap">
+      <!-- Mets ici l'image de pochette LA CITÉ -->
+      <img src="la-cite-cover.jpg" alt="Pochette LA CITÉ">
+      <div class="badge">La Cité</div>
+    </div>
+    <p class="title">LA CITÉ</p>
+    <p class="artists">DJ MAX x MB38</p>
+    <!-- Mets ici le fichier audio LA CITÉ -->
+    <audio controls>
+      <source src="la-cite.mp3" type="audio/mpeg">
+      Votre navigateur ne supporte pas l’élément audio.
+    </audio>
+  </section>
+
+  <!-- 9 4 500 -->
+  <section class="track">
+    <div class="cover-wrap">
+      <!-- Mets ici l'image de pochette 9 4 500 -->
+      <img src="94500-cover.jpg" alt="Pochette 9 4 500">
+      <div class="badge">9 4 500</div>
+    </div>
+    <p class="title">9 4 500</p>
+    <p class="artists">DJ MAX x MB38</p>
+    <!-- Mets ici le fichier audio 9 4 500 -->
+    <audio controls>
+      <source src="94500.mp3" type="audio/mpeg">
+      Votre navigateur ne supporte pas l’élément audio.
+    </audio>
+  </section>
+</body>
+</html>
